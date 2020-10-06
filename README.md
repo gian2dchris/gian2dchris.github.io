@@ -1,7 +1,2 @@
-# hello-world
+# gian2dchris.github.io
 
-
-```bash
-$ echo "it works!"
-it works!
-```
