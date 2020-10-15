@@ -178,3 +178,6 @@ flag: CTF{b853e27db2e3ae06794d32a53f6ee356}
 
 [https://www.synopsys.com/blogs/software-security/understanding-python-bytecode/](https://www.synopsys.com/blogs/software-security/understanding-python-bytecode/)
 
+
+
+[Back](https://gian2dchris.github.io/)
