@@ -85,7 +85,7 @@ A go-to for Java RCE payload is `[[${@java.lang.System@getenv()}]]`, which satis
 
 First bash command I executed was `id` with `lastName firstName` set to `[[${@java.lang.Runtime@getRuntime().exec("" +"id")}]]` and guess what ?!
 
-![javarce](assets/pdfjavarce.jpg)
+![javarce](./assets/javapdfrce.png)
 
 Well payload length restrictions, don't allow us the luxury of `inputStreams` and other Java demons, but with this semi-blind command execution, we are good to go. Next thing I went for was a bash reverse shell [one-liner](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md#bash-tcp), which executed without any errors, but got me no connection back. I concluded that something didn't really like all these special characters, especially `&`. I worked around this, by chaining a few commands to download and execute the one-liner as a script.
 
